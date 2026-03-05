@@ -86,34 +86,6 @@ Experiments varied:
 | Model 3 | Removed | 0.50 | 0.80 | 0.69 | 0.85 |
 | Model 4 | Removed | 0.70 | 0.81 | 0.78 | 0.85 |
 
-## Repository Structure
-
-project/
-│
-├── data/
-│   └── phishing_dataset.csv
-│
-├── notebooks/
-│   └── phishing_analysis.ipynb
-│
-├── figures/
-│   ├── no_https/
-|       ├── roc_curve_no_https.png
-|       ├── roc_curve_no_https_adjusted.png
-|       ├── no_https_cm.png
-|       └── no_https_cm_adjusted.png
-│   ├── has_https/
-|       ├── roc_curve_https.png
-|       ├── roc_curve_https_adjusted.png
-|       ├── https_usage_by_class.png
-|       ├── https_feature_weights.png
-|       ├── https_cm.png
-|       └── https_cm_adjusted.png
-|
-│   └── class_distribution.png
-|
-└── README.md
-
 ## Reproducing The Experiment
 
 1.Clone the repository:
@@ -127,7 +99,6 @@ python -m jupyterLab
 
 4. Open and run: 
 notebooks/Phishing_Analysis.ipynb
-
 
 ## Future Work
 
